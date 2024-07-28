@@ -1,0 +1,3 @@
+Curl command is used to retrieve the contents from the internet.
+we can use the curl command by following the syntax mentioned below:
+curl https://raw.githubusercontent.com/iam-veeramalla/sandbox/main/log/dummylog01122022.log

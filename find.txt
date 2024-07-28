@@ -1,0 +1,4 @@
+Find command:
+it is used to locate the files in the system by the name, size, time,type etc.
+
+

@@ -1,0 +1,52 @@
+list some of the most commonly used commands:
+ls
+mkdir
+touch
+cd destination directory
+cp
+mv
+nano
+vim
+top
+
+1. write a script to print only errors from a remote log
+curl pipe and grep along with the error name
+example curl "the remote url" | grep error
+
+2. write a program to print numbers divided by 3 & 5 and not 15
+3. write a script to print number of "s" in mississippi
+4. How will you debug the shell script
+   I will pass a command while writing the shell script which is
+   set -x
+5. what is crontab in linux ? Can you provide an example of usage
+6. How do you open a file in read mode 
+   if we use the vim command, then we can use vim -r test.txt
+7. What is the difference between soft link and hard link
+   soft links (symbolic links) and hard links are used to create
+   references to files,
+   in case of soft link if we create a file and a soft link of the same file, if the soft link is 
+   deleted, the file will also be deleted.
+8. What is the difference between break and continue statement?
+     
+9. what are some of the disadvantages of shell scripting?
+   * errors are frequent and costly and a single error can alter the
+     command
+   * The execution speed is slow
+   * large complex tasks are not well suited
+   * contrary to other scripting languages, it provides a minimal
+     data structure
+   * every time a shell command is executed, a new process is launced.
+
+10. what are different kinds of loops and when to use them
+11. is bash a statically typed or dynamically typed and why?
+12. what is the networking tool that you use to troubleshoot the network
+    issues?
+    traceroute 
+    tracepath
+    these are the above commands that are used to know the number of hops
+13. how do you sort list of names in a file?
+    use sort command
+14. how will you manage logs of a system that generates huge log files
+    everyday
+    we can use Logrotate command to do that.
+15. 

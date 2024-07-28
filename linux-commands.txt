@@ -1,0 +1,22 @@
+# nproc: tells the number of cpu
+# set -x: always prints the output in the debug mode
+# grep
+# pipe
+# Interview question:
+why the pipe command did not work in this case?
+date | echo "today's date is"
+# the above command will omit the date part and it will only print
+"today's date is"
+this is beause the date commnd is the default shell command and
+it will generate no output if merged with pipe. The date command will
+redirect the output to the stdin and pipe will not receive the output
+from stdin. It will only receive the output as an input if the command's
+output does not go to stdin.
+
+Awk command:
+ ps -ef | grep amazon | awk -F"" '{print $2}'(Here amazon refers to
+ a process that is running inside the system. It can be replaced with
+ any process name)
+ here the awk command gives you the output associated with column number
+ 2 only from several rows. 
+awk -F"" '{print $2}'
